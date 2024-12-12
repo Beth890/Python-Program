@@ -146,7 +146,7 @@ while True:
     print("5 - Save web page")
     print("Q - Quit")
 
-    choice = input("Enter your choice: ").upper()
+    choice = input("Enter your choice: ").upper() #using upper to change q to Q if user uses lowercase so it still runs
         
 #Set actions for chosen choice and break if invaild choice chosen to keep programme running
     if choice == "1":
